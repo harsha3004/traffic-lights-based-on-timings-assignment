@@ -17,7 +17,7 @@ void setup()
   pinMode(13, OUTPUT); //signal 4 green led
 }
 
-void loop()
+void loop() //This will start executing code in loop
 {
   if(Serial.available()>0){
     temp = Serial.parseInt();
